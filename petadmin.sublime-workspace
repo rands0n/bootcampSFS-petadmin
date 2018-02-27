@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 364,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -528,9 +536,29 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "",
+		"last_filter": "dele",
 		"selected_items":
 		[
+			[
+				"dele",
+				"ANF: Delete Current File"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
 			[
 				"blame",
 				"Git: Blame"
@@ -566,10 +594,6 @@
 			[
 				"mak",
 				"Set Syntax: Makefile"
-			],
-			[
-				"dele",
-				"ANF: Delete Current File"
 			],
 			[
 				"ssma",
@@ -694,18 +718,6 @@
 			[
 				"remove pac",
 				"Package Control: Remove Package"
-			],
-			[
-				"git push",
-				"Git: Push"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
 			],
 			[
 				"sscss",
@@ -844,10 +856,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rands0n/Projects/onebitcode/petadmin"
+		"/Users/rands0n/Projects/onebitcode/petadmin",
+		"/Users/rands0n/Projects/onebitcode/petadmin/app"
 	],
 	"file_history":
 	[
+		"/Users/rands0n/Projects/onebitcode/petadmin/petadmin.sublime-project",
+		"/Users/rands0n/Projects/onebitcode/petadmin/test/fixtures/clients.yml",
 		"/Users/rands0n/Projects/onebitcode/petadmin/docker-compose.yml",
 		"/Users/rands0n/Projects/onebitcode/petadmin/start_jobs.sh",
 		"/Users/rands0n/Projects/onebitcode/petadmin/start.sh",
@@ -973,9 +988,7 @@
 		"/Users/rands0n/Projects/job_testing/Gemfile",
 		"/Users/rands0n/Projects/job_testing/app/workers/hard_worker.rb",
 		"/Users/rands0n/Projects/job_testing/app/controllers/home_controller.rb",
-		"/Users/rands0n/Projects/job_testing/test/workers/hard_worker_test.rb",
-		"/Users/rands0n/Projects/seae/service/Gemfile",
-		"/Users/rands0n/Projects/seae/service/app/controllers/workers_controller.rb"
+		"/Users/rands0n/Projects/job_testing/test/workers/hard_worker_test.rb"
 	],
 	"find":
 	{
@@ -1010,8 +1023,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1075,6 +1118,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ro",
+				"config/routes.rb"
+			],
 			[
 				"gem",
 				"Gemfile"
@@ -1582,10 +1629,6 @@
 			[
 				"index",
 				"src/index.html"
-			],
-			[
-				"label",
-				"src/styles/atoms/form/label.css"
 			]
 		],
 		"width": 0.0
@@ -1598,7 +1641,7 @@
 		[
 			[
 				"",
-				"~/Projects/libring/romi_util/romi_util.sublime-project"
+				"~/Projects/libring/edge/edge.sublime-project"
 			],
 			[
 				"rom",
