@@ -10,4 +10,12 @@ class Campaign < ApplicationRecord
   def fae_display_field
     title
   end
+
+  def schedule
+    Client.find_each do |client|
+      CampaignClient.create(campaign: self, client: client)
+
+      CampaignJob.perform_later(client, self.title, self.body)
+    end
+  end
 end
